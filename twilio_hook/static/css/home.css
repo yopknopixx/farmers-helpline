@@ -1,0 +1,50 @@
+
+body {
+	padding: 0 100px;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .ask-question{
+    margin-top: 90px;
+  }
+  .ask-question textarea{
+    outline: none;
+    border: none;
+    width: 80%;
+    /* height: 50px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .ask-question button{
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+   margin-top: 20px;
+  }
